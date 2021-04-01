@@ -1,0 +1,299 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents2_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents3{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* --- */
+
+.intro_bg{
+    background-image: url("img/intro.png");
+    width: 100%;
+    height: 718px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+}
+
+.searchArea {
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 24px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.searchArea > form > input{
+    border:none;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    padding-left: 15px;
+    background: rgba(0,0,0,0.0);
+}
+
+
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(1280px - 300px);
+    line-height: 86px;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color: #fff;
+}
+
+.intro_text{
+    width: 100%;
+    text-align: center;
+    margin: 231px auto 231px auto;
+}
+
+.intro_text > h1,
+.intro_text > p{
+    color: #fff;
+}
+
+.amount{
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: white;
+    margin: auto;
+    height: 132px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.amount> li {
+    flex: 1;
+}
+
+.amount> li > div{
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.amount> li:not(:last-child) > div {
+    border-right: #E1E1E1 solid 2px;
+}
+
+.amount .contents1 {
+    background-color: rgba(245, 222, 179, 0.5)
+}
+.result {
+    font-size: 24px;
+}
+
+.main_text0{
+    background: #F1F2F3;
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+}
+
+.main_text0 > h1{
+    text-align: center;
+    padding-top: 116px;
+}
+
+.main_text0 > .contents1 {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: 49px auto;
+}
+
+.icons > li {
+    flex:1;
+    background: white;
+    text-align: center;
+}
+
+.icons > li:not(:last-child){
+    border-right: #F1F2F3 20px solid;
+}
+
+.icons > li > .icon_img {
+    margin-top: 18px;
+}
+
+.icons .contents3 {
+    width: 240px;
+    margin: auto;
+    letter-spacing: -1px;
+    margin-top: 8px;
+}
+
+.more {
+    background: #2F7AF4;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.main_text1 {
+    background: #FFFFFF;
+    height: 659px;
+    width: 100%;
+}
+.main_text1 > h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main_text1 > .contents1{
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    margin: auto;
+    height: 427px;
+    width: 1280px;
+    margin-top: 49px;
+}
+
+.service > div {
+    flex: 1;
+}
+
+.food_text{
+    margin-left: 20px;
+}
+.food_text > .contents2_bold {
+    font-weight: lighter;
+    margin-top: 27px;
+}
+
+.main_text2{
+    height: 440px;
+    background-size: cover;
+}
+
+.main_text2 > ul {
+    display: flex;
+}
+
+.main_text2 > ul > li {
+    flex: 1;
+    width: 960px;
+    height: 418px;
+}
+
+.contact {
+    background-image: url("img/life.jpg");
+    background-size: cover;
+}
+
+.contact > h1 {
+    text-align: center;
+    color:white;
+    padding-top: 138px;
+}
+
+.contact > .contents1 {
+    text-align: center;
+    color: white;
+}
+
+.contact > .contents2_bold {
+    width: 220px;
+    height: 40px;
+    margin: 15px auto;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+.what {
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.what > h1,
+.what > .contents1 {
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    padding: 30px;
+    background: black;
+}
+
+.footer_contents {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.footer_contents > div:first-child {
+    flex:4;
+    text-align: center;
+    color: white;
+}
+
+.footer_contents > div:last-child {
+    flex:8;
+    color: white;
+}
+
+.life_is {
+    padding: 20px auto;
+}
